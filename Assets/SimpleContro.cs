@@ -7,6 +7,8 @@ public class SimpleContro : MonoBehaviour {
     public static SimpleContro Instance;
     // Use this for initialization
     public bool isMove = false;
+
+    public Transform currentTrans;
     private void Awake()
     {
         Instance = this;
