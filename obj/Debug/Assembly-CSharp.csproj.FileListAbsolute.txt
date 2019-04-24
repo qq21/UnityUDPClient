@@ -166,3 +166,5 @@ F:\Socket通讯\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
 F:\Socket通讯\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 F:\Socket通讯\obj\Debug\Assembly-CSharp.dll
 F:\Socket通讯\obj\Debug\Assembly-CSharp.pdb
+F:\Socket通讯\Temp\bin\Debug\Assembly-CSharp.dll.CodeAnalysisLog.xml
+F:\Socket通讯\Temp\bin\Debug\Assembly-CSharp.dll.lastcodeanalysissucceeded

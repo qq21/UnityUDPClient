@@ -59,10 +59,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\MySocketLearning\Client.cs" />
-    <Compile Include="Assets\MySocketLearning\GameSever.cs" />
-    <Compile Include="Assets\MySocketLearning\IPManager.cs" />
+    <Compile Include="Assets\ConnetManager.cs" />
+    <Compile Include="Assets\MySocketLearning\NetInputDetecter.cs" />
     <Compile Include="Assets\MySocketLearning\UDPClient.cs" />
+    <Compile Include="Assets\Script\Client\Client.cs" />
+    <Compile Include="Assets\Script\Data\NetData.cs" />
+    <Compile Include="Assets\Script\EventCenter\CallBack.cs" />
+    <Compile Include="Assets\Script\EventCenter\EventCenter.cs" />
+    <Compile Include="Assets\Script\EventCenter\EventType.cs" />
+    <Compile Include="Assets\Script\Manager\IPManager.cs" />
+    <Compile Include="Assets\Script\NetFrameWork\GameMessage.cs" />
+    <Compile Include="Assets\Script\NetFrameWork\INetworkClient.cs" />
+    <Compile Include="Assets\Script\NetFrameWork\MsgCode.cs" />
+    <Compile Include="Assets\Script\Server\GameSever.cs" />
     <Compile Include="Assets\SimpleContro.cs" />
     <Compile Include="Assets\SimpleFollow.cs" />
     <Reference Include="UnityEditor.StandardEvents">

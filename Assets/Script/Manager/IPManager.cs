@@ -1,7 +1,9 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Net.NetworkInformation;
 using System.Net.Sockets;
+using System.Text.RegularExpressions;
 using UnityEngine;
 
 public class IPManager
@@ -48,6 +50,13 @@ public class IPManager
             }
         }
         return output;
+    }
+
+    public static bool IsIP(string ip)
+    {
+        string ipPattern = "^((25[0-4]|2[0-4]|1\\d{2}|[1-9]?\\d)\\.){3}(25[0-4]|2[0-4]|1\\d{2}|[1-9]?\\d)$";
+        Regex regex = new Regex(ipPattern);
+        return regex.IsMatch(ip);
     }
 }
 public enum ADDRESSFAM
